@@ -36,7 +36,7 @@ def fib_page(request:HttpRequest, n: int) -> HttpResponse:
     else:
         fib1 = 0
         fib2 = 1
-        i = 2
+        i = 1
         while i < n:
             fib_sum = fib2 + fib1
             fib1 = fib2
